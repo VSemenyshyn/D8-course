@@ -1,0 +1,12 @@
+uuid: 05a7d1a1-16dd-4d84-a158-13934d841447
+langcode: en
+status: true
+dependencies: {  }
+id: advertising_inquiries
+label: 'Advertising Inquiries'
+recipients:
+  - viktoriia.palenka@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you for getting in touch with us regarding advertising. We will respond shortly.'
+redirect: ''

@@ -1,0 +1,35 @@
+uuid: b1d40095-8b0e-49bc-83a1-db087f084c56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.email.body
+    - field.field.node.email.field_email
+    - node.type.email
+  module:
+    - text
+    - user
+id: node.email.default
+targetEntityType: node
+bundle: email
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

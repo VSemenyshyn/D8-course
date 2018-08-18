@@ -1,0 +1,8 @@
+uuid: 13359aa9-cd44-404c-aaf5-50c9979b3d33
+langcode: en
+status: true
+dependencies: {  }
+id: current_date_and_time
+label: 'Current date and time'
+revision: 0
+description: ''

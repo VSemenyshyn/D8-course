@@ -1,0 +1,24 @@
+uuid: 273bb736-af0c-4532-8673-6fce612fe445
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.current_date_and_time
+    - field.storage.block_content.field_date_and_time
+  module:
+    - datetime
+id: block_content.current_date_and_time.field_date_and_time
+field_name: field_date_and_time
+entity_type: block_content
+bundle: current_date_and_time
+label: 'Date and time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

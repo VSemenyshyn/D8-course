@@ -1,0 +1,33 @@
+uuid: 2415ffde-d82f-45b5-b091-f6e90bb3f492
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.current_date_and_time
+    - field.field.block_content.current_date_and_time.body
+    - field.field.block_content.current_date_and_time.field_date_and_time
+  module:
+    - datetime
+    - text
+id: block_content.current_date_and_time.default
+targetEntityType: block_content
+bundle: current_date_and_time
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_and_time:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

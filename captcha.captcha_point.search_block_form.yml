@@ -1,0 +1,7 @@
+uuid: 95733c41-6c42-4667-abe5-87b81caea32d
+langcode: en
+status: true
+dependencies: {  }
+formId: search_block_form
+captchaType: image_captcha/Image
+label: search_block_form

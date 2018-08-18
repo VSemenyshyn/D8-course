@@ -1,0 +1,8 @@
+uuid: a64c574c-311e-4e82-904e-f641586aca51
+langcode: en
+status: true
+dependencies: {  }
+id: user_email
+label: 'User email'
+revision: 0
+description: ''

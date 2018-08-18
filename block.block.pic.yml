@@ -1,0 +1,25 @@
+uuid: 6864d7fd-b488-4da3-8803-ba1ef0cb7ddb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: pic
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+settings:
+  id: 'block_content:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+  label: Pic
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

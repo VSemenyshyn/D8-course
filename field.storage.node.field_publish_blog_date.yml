@@ -1,0 +1,20 @@
+uuid: 30d50b2a-9b15-48dc-9414-95e73429ee76
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_publish_blog_date
+field_name: field_publish_blog_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

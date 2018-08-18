@@ -1,0 +1,32 @@
+uuid: 99e727c6-2ea0-4bc0-8caf-eff277d38bd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_email
+    - field.field.block_content.user_email.body
+  module:
+    - text
+id: block_content.user_email.default
+targetEntityType: block_content
+bundle: user_email
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

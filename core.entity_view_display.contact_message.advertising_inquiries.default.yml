@@ -1,0 +1,39 @@
+uuid: d43f547c-961c-4bdf-a66d-16ca9dae77e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.advertising_inquiries
+    - field.field.contact_message.advertising_inquiries.field_advertising_budget
+    - field.field.contact_message.advertising_inquiries.field_company
+id: contact_message.advertising_inquiries.default
+targetEntityType: contact_message
+bundle: advertising_inquiries
+mode: default
+content:
+  field_advertising_budget:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_company:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,33 @@
+uuid: 956664ad-93e2-4e20-9ff1-c99f4dba59e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ef403c9e-c025-46d6-aa00-48219527fe5c'
+  module:
+    - block_content
+    - node
+  theme:
+    - business
+id: business_aboutme
+theme: business
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:ef403c9e-c025-46d6-aa00-48219527fe5c'
+settings:
+  id: 'block_content:ef403c9e-c025-46d6-aa00-48219527fe5c'
+  label: 'About me'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

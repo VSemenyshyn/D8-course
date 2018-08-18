@@ -1,0 +1,24 @@
+uuid: cc30314b-e408-4f43-bf7e-bd5688f02d9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_articles
+  module:
+    - views
+  theme:
+    - business
+id: business_views_block__latest_articles_block_1
+theme: business
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:latest_articles-block_1'
+settings:
+  id: 'views_block:latest_articles-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

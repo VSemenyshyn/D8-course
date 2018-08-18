@@ -1,0 +1,14 @@
+uuid: 2d2746b9-1aff-43c7-8a3d-9d8cca950e7d
+name: 'Viktoriia Semenyshyn'
+mail: viktoriia.palenka@gmail.com
+slogan: 'We create what we love.'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,29 @@
+uuid: 24da28b5-521d-4246-b501-1c8ccf898121
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies_
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: exposedformmovies_page_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:movies_-page_1'
+settings:
+  id: 'views_exposed_filter_block:movies_-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: 'Search movies '
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,9 @@
+uuid: 31b940a8-3bf7-454e-8c11-7017fbd62bc4
+langcode: en
+status: true
+dependencies: {  }
+name: Blog
+vid: blog
+description: ''
+hierarchy: 0
+weight: 0

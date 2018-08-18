@@ -1,0 +1,22 @@
+uuid: 5ff808a5-832e-4a89-a18b-51ee8ff024c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.current_date_and_time
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.current_date_and_time.body
+field_name: body
+entity_type: block_content
+bundle: current_date_and_time
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

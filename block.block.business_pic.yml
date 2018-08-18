@@ -1,0 +1,25 @@
+uuid: 33febf3a-2a9c-43c1-acbc-c87941398b3b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+  module:
+    - block_content
+  theme:
+    - business
+id: business_pic
+theme: business
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+settings:
+  id: 'block_content:47a71ea7-3ffe-410c-86cc-e2e70d7bcd35'
+  label: Pic
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

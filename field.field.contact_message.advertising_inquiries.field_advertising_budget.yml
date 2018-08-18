@@ -1,0 +1,23 @@
+uuid: 8ae616c4-53d5-4004-aa1a-663294fc1387
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.advertising_inquiries
+    - field.storage.contact_message.field_advertising_budget
+id: contact_message.advertising_inquiries.field_advertising_budget
+field_name: field_advertising_budget
+entity_type: contact_message
+bundle: advertising_inquiries
+label: 'Advertising budget'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: integer

@@ -1,0 +1,22 @@
+uuid: c134dfa3-6c6e-475e-8fe6-c5cf39d1e768
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.user_email
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.user_email.body
+field_name: body
+entity_type: block_content
+bundle: user_email
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

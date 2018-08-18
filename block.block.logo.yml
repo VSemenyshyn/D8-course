@@ -1,0 +1,25 @@
+uuid: 83553a6c-8fae-4941-973e-a96a2395e95c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0d06a3d8-bdd3-4e30-97d8-6d408d2cd70a'
+  module:
+    - block_content
+  theme:
+    - business
+id: logo
+theme: business
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:0d06a3d8-bdd3-4e30-97d8-6d408d2cd70a'
+settings:
+  id: 'block_content:0d06a3d8-bdd3-4e30-97d8-6d408d2cd70a'
+  label: Logo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

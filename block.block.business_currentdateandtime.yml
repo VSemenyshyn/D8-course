@@ -1,0 +1,25 @@
+uuid: 4c3b5fd3-cee1-49cf-9dce-af844ef72373
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:current_date_and_time:9d1464ce-e123-4836-99de-649e1484d14f'
+  module:
+    - block_content
+  theme:
+    - business
+id: business_currentdateandtime
+theme: business
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:9d1464ce-e123-4836-99de-649e1484d14f'
+settings:
+  id: 'block_content:9d1464ce-e123-4836-99de-649e1484d14f'
+  label: 'Current date and time'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

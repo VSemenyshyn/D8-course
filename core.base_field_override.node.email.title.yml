@@ -1,0 +1,18 @@
+uuid: b20f623d-6032-45a7-980e-d8ebbd1fb6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email
+id: node.email.title
+field_name: title
+entity_type: node
+bundle: email
+label: E-mail
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
